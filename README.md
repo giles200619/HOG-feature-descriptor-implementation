@@ -9,10 +9,10 @@ A simple implementation of Histogram of oriented gradient (HOG) descriptor.
 
 
 ## Steps
-* Get differential images from grayscale image.
-* Compute gradient.
-* Build the histogram of oriented gradients for all cells.
-* Build normalized block descriptor from cells.
+1. Get differential images from grayscale image.
+2. Compute gradient.
+3. Build the histogram of oriented gradients for all cells.
+4. Build normalized block descriptor from cells.
 
 ## Dependencies
 * Numpy
